@@ -10,7 +10,7 @@
       in
       {
         devShells.default = pkgs.mkShell {
-          packages = with pkgs; [ hello ];
+          packages = with pkgs; [ nodejs yarn ];
         };
       });
 }

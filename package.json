@@ -1,0 +1,20 @@
+{
+  "name": "un-pre",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pf-siedler/un-pre.git",
+  "author": "pf-siedler <pferd262@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "20.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "typescript": "5.2.2"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "node dest",
+    "format": "prettier -w src"
+  }
+}
