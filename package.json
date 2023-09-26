@@ -6,10 +6,14 @@
   "author": "pf-siedler <pferd262@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@octokit/rest": "20.0.1"
+    "@herp-inc/environmen-ts": "0.5.0",
+    "@octokit/request-error": "5.0.1",
+    "@octokit/rest": "20.0.1",
+    "fp-ts": "2.16.1"
   },
   "devDependencies": {
-    "prettier": "^3.0.3",
+    "@types/node": "20.6.5",
+    "prettier": "3.0.3",
     "typescript": "5.2.2"
   },
   "scripts": {
