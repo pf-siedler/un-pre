@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  unpre:
+    build:
+      context: .
+    environment:
+      - GITHUB_OWNER=pf-siedler
+      - GITHUB_REPO=un-pre
+      - GITHUB_TAG=release-hoge
+      - GITHUB_TOKEN=##### PASTE YOUR TOKEN HERE #####
